@@ -1,8 +1,9 @@
-package SpringPlayground.service;
+package SpringPlayground.service.impl;
 
 
 import SpringPlayground.model.Book;
 import SpringPlayground.repository.BookRepository;
+import SpringPlayground.service.BookService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import java.util.UUID;
 
 @Service
 @AllArgsConstructor
-public class BookServiceImpl implements BookService{
+public class BookServiceImpl implements BookService {
     private BookRepository bookRepository;
 
 

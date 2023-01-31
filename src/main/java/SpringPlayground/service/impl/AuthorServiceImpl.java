@@ -1,7 +1,8 @@
-package SpringPlayground.service;
+package SpringPlayground.service.impl;
 
 import SpringPlayground.model.Author;
 import SpringPlayground.repository.AuthorRepository;
+import SpringPlayground.service.AuthorService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

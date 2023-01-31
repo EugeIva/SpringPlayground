@@ -1,6 +1,7 @@
-package SpringPlayground.service;
+package SpringPlayground.service.impl;
 
 import SpringPlayground.model.Quote;
+import SpringPlayground.service.QuoteService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
