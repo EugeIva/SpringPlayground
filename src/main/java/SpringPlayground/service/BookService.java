@@ -9,4 +9,8 @@ public interface BookService {
     public List<Book> findAll();
 
     Book getOne(UUID id);
+
+    Book save(Book book);
+
+    List<Book> findByName(String name);
 }

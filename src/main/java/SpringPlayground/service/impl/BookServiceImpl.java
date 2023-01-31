@@ -25,4 +25,14 @@ public class BookServiceImpl implements BookService {
     public Book getOne(UUID id) {
         return bookRepository.findById(id).get();
     }
+
+    @Override
+    public Book save(Book book) {
+        return bookRepository.save(book);
+    }
+
+    @Override
+    public List<Book> findByName(String name) {
+        return bookRepository.findByBookNameContaining(name);
+    }
 }
